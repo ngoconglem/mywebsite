@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: url(img/background8.jpg);
+
+}
+
+
+/* Navigation */
+.navbar-default {
+  background-color: rgba(7, 78, 103, .9);
+  border-bottom: palegreen solid 3px;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Headers */
+#brand-top {
+  text-align: center;
+  margin:0;
+  color: white;
+}
+
+#brand-top h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#surname {
+  color: #e66d10;
+}
+
+#brand-top p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-item .active, a:hover {
+  color: aquamarine;
+}
+
+.navbar img {
+  height: 2rem;
+}
+
+
+/* Global */
+.container {
+  width: auto;
+  max-width: 70%;
+  padding: 15px;
+}
+
+
+h1, h3, h4 {
+  color: white;
+  padding: .5rem;
+}
+
+.last-row {
+  margin-bottom: 5rem;
+}
+
+hr.socket {
+  width: 30%;
+  border-top: .2rem solid aqua;
+  margin-bottom: 1rem;
+}
+
+/* Landing */
+
+#landing {
+  margin: 1.5rem auto;
+  width: 100%;
+}
+
+#landing .landing-text {
+  padding-bottom: 5rem;
+}
+
+#landing img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 3rem;
+}
+
+#landing h1 {
+  margin-top: 3rem;
+  text-align: right;
+  color: white;
+}
+
+blockquote {
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 5rem;
+  text-align: justify;
+}
+
+.landing-text .cite-right {
+  text-align: right;
+}
+
+
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+
+
+.landing-hr {
+  margin: .5rem 0;
+  border-top: .05rem solid #1ebba3;
+}
+
+/* CV */
+#cv {
+  padding-top: 5rem;
+}
+
+#cv h1 {
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Publications */
+#publications {
+  padding-top: 5rem;
+}
+
+#publications h1 {
+  padding: 5px;
+}
+
+#publications h3 {
+  padding: 5px;
+  color: #e6e851;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Projects */
+#projects {
+  padding-top: 5rem;
+}
+.project-text {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  color: azure;
+}
+
+.project-text p {
+  padding-left: 2rem;
+}
+
+
+/* Contact */
+#contact {
+  /* margin-bottom: 0; */
+  margin-top: 3rem;  
+}
+
+#contact h3{
+  color: orange;
+  font-size: 2rem;
+}
+
+#contact p{
+  padding-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#contact a {
+  color: aqua;
+}
+
+/* Social Media Icons */
+
+#contact .social {
+  text-align: center;
+}
+
+#contact .social a {
+  font-size: 2em;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 2em;
+}
+
+#contact .svg-inline--fa {
+  text-decoration: none;
+  width: 30px;
+  height: 25px;
+}
+
+.fa-facebook{
+  color: #3B5998;
+}
+.fa-twitter{
+  color: #55ACEE;
+
+}
+.fa-youtube{
+  color: #bb0000;
+}
+
+.fa-linkedin{
+  color: #007bb5;
+}
+/* Add a hover effect if you want */
+.fa-facebook:hover, .fa-twitter:hover, .fa-youtube:hover, .fa-linkedin:hover {
+  opacity: 0.7;
+}
+
+
+/* Gallery */
+#gallery {
+  margin-top: 3em;
+  padding-bottom: 5rem;
+}
+
+#gallery h3 {
+  margin: 0;
+  color: orange;
+  font-size: 2rem;
+}
+
+#photo-wrapper {
+  width: 33%;
+  height: 400px;
+}
+
+#gallery img {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+
+/* Footer*/
+.footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(7, 78, 103, .8);
+  color: white;
+}
+
+.footer .container {
+  padding-top: .7rem;
+}
+
+.footer #copyright {
+  font-size: 1.2rem;
+}
+
+@media(max-width:768px){
+  #landing img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #landing blockquote{
+    margin: auto;
+    text-align: justify;
+  }
+
+  #landing h1 {
+    min-width: 100%;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  blockquote {
+    text-align: justify;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  .row {
+    display: block;
+  }
+
+  /* Gallery */
+  #gallery img {
+    height: 300px;
+  }
+  #photo-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Footer */
+  .footer {
+    height: 85px;
+  }
+
+
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
