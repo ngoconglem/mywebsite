@@ -292,17 +292,13 @@ ul {
 
   #landing blockquote{
     margin: auto;
-    text-align: center;
+    text-align: justify;
   }
 
   #landing h1 {
     min-width: 100%;
     font-size: 2.3rem;
     text-align: center;
-  }
-
-  blockquote {
-    text-align: justify;
   }
 
   #contact {
