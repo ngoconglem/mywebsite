@@ -90,6 +90,21 @@ hr.socket {
   margin-bottom: 1rem;
 }
 
+.download {
+  margin-left: 10px;
+  color: #3B5998;
+  padding: 3px;
+  background-color: #f7f7f2;
+  border-radius: 5px;
+  font-size: 17px;
+  border: 2px solid #f7f7f2;
+}
+
+.download:hover {
+  color: #55ACEE;
+  background-color: white;
+}
+
 /* Landing */
 
 #landing {
