@@ -338,6 +338,10 @@ ul {
     height: 100px;
   }
 
+  #copyright{
+    width: 100%;
+  }
+
 
 }
 /*============ BOOTSTRAP BREAK POINTS:
