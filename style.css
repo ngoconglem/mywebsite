@@ -335,11 +335,12 @@ ul {
 
   /* Footer */
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   #copyright{
     width: 100%;
+    font-size: 3rem;
   }
 
 
